@@ -5,6 +5,7 @@ RUN apt-get update
 RUN apt-get install -y git
 
 # Set the working directory to /app
+RUN mkdir -p /app
 WORKDIR /app
 
 # Copy the current directory contents into the container at /app
