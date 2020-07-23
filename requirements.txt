@@ -1,0 +1,6 @@
+aio-pika==3.0.1
+-e git://github.com/Alexander35/amqp_handler.git#egg=amqp_handler
+-e git://github.com/alexander35/pinger_stuff.git#egg=pinger_stuff
+async-timeout
+-e git://github.com/Alexander35/postgres_handler.git#egg=postgres_handler
+psycopg2-binary==2.7.5
