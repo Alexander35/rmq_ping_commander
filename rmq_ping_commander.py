@@ -8,6 +8,7 @@ import logging
 import json
 import ipaddress
 import threading
+import os
 
 logger = logging.getLogger('rmq_ping_commander')
 logger.setLevel(logging.DEBUG)
