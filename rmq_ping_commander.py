@@ -75,7 +75,7 @@ def filter_ip_by_exists(ip_addr):
 
     get_exists_device.append(PH.execute(sql_get_all_exists_devices))
 
-    if get_exists_device == []:
+    if get_exists_device == [[], []]:
         return None
     
     return get_exists_device
